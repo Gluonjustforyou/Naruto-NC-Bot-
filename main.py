@@ -16,8 +16,8 @@ async def on_ready():
 
 @bot.command()
 async def checkport(ctx):
-  hostname = 'de-fra-game1.ips-hosting.com'
-  port = 2200
+  hostname = 'de-fra-game1.ips-hosting.com' #this shi ist just for me u need some kind of adrress
+  port = 2200 # just the prot 
   try:
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     sock.settimeout(1)
