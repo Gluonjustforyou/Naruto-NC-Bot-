@@ -24,7 +24,8 @@ async def checkport(ctx):
         sock.close()
 
         if result == 0:
-            await ctx.send(f"Port {port} auf {hostname} ist offen.")
+            await ctx.send(f"🍜 Naruto Chronicles | NarutoRP 🍥 ist online")
+            await ctx.send(f"steam://connect/84.200.229.42:27022")
         else:
             await ctx.send(f"Port {port} auf {hostname} ist geschlossen.")
     except socket.error as e:
