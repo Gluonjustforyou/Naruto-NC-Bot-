@@ -6,4 +6,4 @@ feel free to use my code, (I think it's a godd base to just start), u can change
 if u see any Miss spelling or non Funktion, juz text me.
 Discord: Awa#0174
 
-Btw it's code for Py 2.6
+Btw it's code for Py 3.9
